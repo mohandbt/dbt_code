@@ -1,5 +1,4 @@
-{{config(materialized='table',
-        transient='false')}}
+{{config(materialized='table', transient='false')}}
 
 with customers as (
   select
